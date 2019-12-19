@@ -1,0 +1,9 @@
+1 - Foi criado um banco de dados baseado nas respostas das requisições fornecidas utilizando MySQL Workbench e Server. Contudo, como não tenho total conhecimento do negócio é possível que tabelas e relações não estejam condizentes com o desejado.
+2 - Foi considerado que as empresas possam ser de mais de um tipo.
+3 - As requisições por filtros podem ser feitas utilizando os atributos nome e/ou tipo de empresa.
+4 - Para autenticação foi utilizado somente o padrão JWT.
+5 - Como não tenho experiência com JWT e Oauth, conheço somente o básico do Spring Security tentei implementar da melhor forma que consegui seguindo documentação e tutoriais.
+6 - Os headers retornados são o token ('access-token') e email ('uid'). Como não entendi o significado do custom header 'client' o mesmo não foi implementado.
+7 - Optei por utilizar JpaRepository do Spring Data para manipulação do banco de dados devido a facilidade que a mesma proporciona, contudo seria possível utilizar diretamente EntityManager para tais tarefas.
+
+No repositório do git esta disponível toda a codificação, as resquisições exportadas pelo postman e o diagrama em .mwb e .png do banco de dados.
